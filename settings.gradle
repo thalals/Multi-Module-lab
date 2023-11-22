@@ -7,4 +7,6 @@ pluginManagement {
 }
 rootProject.name = 'Multi-Module-lab'
 
+//root project 에서 모듈 인식되도록 의존성 추가
 include 'api'
+include 'core'

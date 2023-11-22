@@ -39,6 +39,14 @@ subprojects{
 		annotationProcessor 'org.projectlombok:lombok'
 	}
 
+	tasks.named('bootJar') {
+		enabled = false
+	}
+
+	tasks.named('jar') {
+		enabled = true
+	}
+
 	tasks.named('test') {
 		useJUnitPlatform()
 	}
