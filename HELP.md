@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.example.module-study' is invalid and this project uses 'com.example.modulestudy' instead.
+* The original package name 'com.example.module-study' is invalid and this project uses 'com.example.api' instead.
 
 # Getting Started
 

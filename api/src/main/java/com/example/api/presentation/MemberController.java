@@ -1,4 +1,4 @@
-package com.example.modulestudy.presentation;
+package com.example.api.presentation;
 
 import com.example.core.application.MemberService;
 import com.example.core.domain.Member;

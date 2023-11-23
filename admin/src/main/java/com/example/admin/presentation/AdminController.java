@@ -1,4 +1,4 @@
-package com.example.modulestudy.presentation;
+package com.example.admin.presentation;
 
 import com.example.core.application.MemberService;
 import org.springframework.stereotype.Controller;
