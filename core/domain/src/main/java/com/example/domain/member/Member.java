@@ -1,4 +1,4 @@
-package com.example.core.domain;
+package com.example.domain.member;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

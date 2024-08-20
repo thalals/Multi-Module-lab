@@ -1,14 +1,12 @@
-package com.example.core.application;
+package com.example.domain.member;
 
-import com.example.core.domain.Member;
-import com.example.core.domain.MemberRepository;
 import org.springframework.stereotype.Service;
 
 @Service
 public class MemberService {
-    private final MemberRepository memberRepository;
+    private final MemberJpaRepository memberRepository;
 
-    public MemberService(MemberRepository memberRepository) {
+    public MemberService(MemberJpaRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
 

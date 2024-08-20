@@ -1,7 +1,6 @@
 dependencies {
 
-	implementation project(':core:infra')
-	runtimeOnly project(':core:domain')
+	compileOnly project(':core:domain')
 
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
